@@ -19,4 +19,26 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.titulo-pricipal{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+}
+.botao{
+    background-color: var(--botão-inativo);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 4px solid var(--botão-ativo);
+    border-left: 2px solid var (var(--botão-ativo));
+    border-right: 2px solid var(--botão-ativo);
 }
