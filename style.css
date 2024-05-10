@@ -43,6 +43,7 @@ span{
     border-left: 2px solid var (var(--botão-ativo));
     border-right: 2px solid var(--botão-ativo);
 }
+
 .botoes{
     display: block;
 }
@@ -57,13 +58,18 @@ span{
 
 }
 
+.ativo{
+    background-color: var(--botão-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
 @media  screen and (min-width: 700px){
     .botoes{
         display: flex;
     }
     .botao:last-child{
             border-radius: 0 20px 20px 0;
-     } 
+    } 
     .botao:first-child{
             border-radius: 20px 0 0 20px;
     }  
