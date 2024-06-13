@@ -1,4 +1,4 @@
-const botoes=document.querySelectorAll(".botao");
+    const botoes=document.querySelectorAll(".botao");
 const conteudo  = document.querySelectorAll(".aba-conteudo")
 
 console.log(botoes)
