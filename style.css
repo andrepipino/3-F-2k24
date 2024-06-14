@@ -5,8 +5,8 @@
     --verde: #6fff57;
     --branco: #FFFFFF;
     --botão-ativo:  #3a375e;
-    --botão-inativo: rgba(17, 15, 43, 0.3);
-    --texto-fundo: rgba(11, 9, 32, 0.3);   
+    --botão-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);   
 }
   *{
      
@@ -15,6 +15,7 @@
 
   body{
     background-color: var(--cor-de-fundo);
+    font-family: 'Chakra Patch', sans-serif;
   }
 
 span{
@@ -38,13 +39,13 @@ span{
 }
 .botao{
     background-color: var(--botão-inativo);
-    width: 100%;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1em;
     font-size: 18px;
+    width: 100%;
     border-bottom: 4px solid var(--botão-ativo);
     border-left: 2px solid var(--botão-ativo);
     border-right: 2px solid var(--botão-ativo);
@@ -54,7 +55,6 @@ span{
     border-bottom:4px solid var(--verde);
 }
 .aba-conteudo{
-    background-color: var(--texto-fundo);
     display: none;
 }
 
@@ -67,19 +67,6 @@ span{
     border-radius: 15px;
 }
 
-.botoes{
-    display: block;
-}
-
-.botao:first-child{
-    border-radius: 20px 20px 0 0;
-
-}
-
-.botao:last-child{
-    border-radius: 0 0 20px 20px;
-
-}
 .abas-textos{
    background-color: var(--botão-inativo);
    padding:40px;
